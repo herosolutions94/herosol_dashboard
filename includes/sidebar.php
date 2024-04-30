@@ -1,6 +1,6 @@
 <aside class="left-sidebar">
     <div class="logo">
-        <a href="">
+        <a href="index.php">
             <img src="images/logo.png" alt="">
         </a>
         <!-- <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fs-5 d-flex d-xl-none">

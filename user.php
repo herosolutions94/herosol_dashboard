@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Forms - Hero Solutions</title>
+    <title>User - Hero Solutions</title>
     <?php require_once('includes/site-master.php'); ?>
 </head>
 
