@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Order - Hero Solutions</title>
+    <title>Contact List - Hero Solutions</title>
     <?php require_once('includes/site-master.php'); ?>
 </head>
 
@@ -19,10 +19,10 @@
                     <div class="contain-fluid">
                         <div class="heading">
                             <div class="text">
-                                <h3>Orders</h3>
+                                <h3>Contact</h3>
                                 <ul>
                                     <li><a href="">Home</a> </li>
-                                    <li class="active"><a href=""> Order</a></li>
+                                    <li class="active"><a href="">Contact</a></li>
                                 </ul>
                             </div>
                             <div class="text text2">
@@ -41,27 +41,27 @@
                                 <thead>
                                     <tr class="table-scnd-row">
                                         <th width="7%">
-                                            <p>Sr#</p>
+                                            <p>#</p>
                                         </th>
                                         <th width="12%">
-                                            <p>Order ID </p>
+                                            <p>Customer ID </p>
                                         </th>
-                                        <th width="21%">
-                                            <p>Customer Detail </p>
+                                        <th width="19%">
+                                            <p>Name </p>
                                         </th>
-                                        <th width="13%">
+                                        <th width="15%">
+                                            <p>Email</p>
+                                        </th>
+                                        <th width="14%">
                                             <p>Phone No</p>
                                         </th>
-                                        <th width="13%">
-                                            <p>Amount</p>
-                                        </th>
-                                        <th width="13%">
-                                            <p>Date</p>
+                                        <th width="14%">
+                                            <p>Country</p>
                                         </th>
                                         <th width="12%">
-                                            <p>Status</p>
+                                            <p>City</p>
                                         </th>
-                                        <th width="8%" style="display:table-cell;">
+                                        <th width="10%">
                                             <p>Action</p>
                                         </th>
                                     </tr>
@@ -79,25 +79,24 @@
                                                 <div class="image">
                                                     <img src="images/team-1.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Abdullah Tahir</p>
-                                                    <p>Abdul12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Abeera Asjid</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>985704585</p>
-                                        </td>
-                                        <td>
-                                            <p>$790</p>
-                                        </td>
-                                        <td>
-                                            <p>July 5 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge success">Completed</a>
+                                            <p>Abdul12@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>95957549</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Sargodha </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -122,32 +121,31 @@
                                             <p>2</p>
                                         </td>
                                         <td>
-                                            <p>#75859 </p>
+                                            <p>#13456 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
-                                                    <img src="images/team-1.jpeg">
+                                                    <img src="images/team-2.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Abdullah Tahir</p>
-                                                    <p>Abdul12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Subhan Azam</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>985704585</p>
-                                        </td>
-                                        <td>
-                                            <p>$790</p>
-                                        </td>
-                                        <td>
-                                            <p>July 5 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge success">Completed</a>
+                                            <p>Subhan@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>75849326</p>
+                                        </td>
+                                        <td>
+                                            <p>India</p>
+                                        </td>
+                                        <td>
+                                            <p> Dalhi </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -172,32 +170,31 @@
                                             <p>3</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#09876 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-3.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Ayat Sajid</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge danger">Cancelled</a>
+                                            <p>Ayan2@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>8476529</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Lahore </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -222,32 +219,31 @@
                                             <p>4</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#65738 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-4.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Ahmed Ali</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge success">Completed</a>
+                                            <p>Ahmed@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>84758947</p>
+                                        </td>
+                                        <td>
+                                            <p>China</p>
+                                        </td>
+                                        <td>
+                                            <p> Billging </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -272,32 +268,31 @@
                                             <p>5</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#38965 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-5.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Zubia Ahmed</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge warning">Pending</a>
+                                            <p>ZUB@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>95957549</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Islamabad </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -322,32 +317,31 @@
                                             <p>6</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#23449 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-6.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Abdullah Tahir</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge danger">Cancelled</a>
+                                            <p>Abdul12@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>95957549</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Gujrat </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -372,32 +366,31 @@
                                             <p>7</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#89765 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-7.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>ALi Tahir</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge success">Completed</a>
+                                            <p>alil12@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>95957549</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Lahore </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -422,32 +415,31 @@
                                             <p>8</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#54895 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-8.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Anaya Shah</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge success">Completed</a>
+                                            <p>Anaya12@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>74587955</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Sargodha </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -472,32 +464,31 @@
                                             <p>9</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#75859 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-9.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Abdullah Tahir</p>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
                                             <p>
-                                                <a href="" class="status badge danger">Cancelled</a>
+                                            <p>Abdul12@gmail.com</p>
                                             </p>
+                                        </td>
+                                        <td>
+                                            <p>95957549</p>
+                                        </td>
+                                        <td>
+                                            <p>Pakistan</p>
+                                        </td>
+                                        <td>
+                                            <p> Sargodha </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">
@@ -522,82 +513,31 @@
                                             <p>10</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>#75859 </p>
                                         </td>
                                         <td>
                                             <div class="flex">
                                                 <div class="image">
                                                     <img src="images/team-10.jpeg">
                                                 </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
+                                                <div class="custm-cntnt">
+                                                    <p>Abdullah Tahir</p>
                                                 </div>
                                             </div>
-                                        </td>
-                                        <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
                                         </td>
                                         <td>
                                             <p>
-                                                <a href="" class="status badge warning">Pending</a>
+                                            <p>Abdul12@gmail.com</p>
                                             </p>
                                         </td>
                                         <td>
-                                            <div class="btn-group">
-                                                <button type="button" class=" dropdown-toggle" data-toggle="dropdown">
-                                                    <i class="fa fa-ellipsis-h"></i>
-                                                </button>
-                                                <ul class="dropdown-menu dropdown-primary" role="menu">
-                                                    <li>
-                                                        <a href="">
-                                                            <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="" onclick="return confirm('Are you sure?');">
-                                                            <i class="fa fa-trash" aria-hidden="true"></i>Delete </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="bottom-cntnt">
-                                        <td>
-                                            <p>11</p>
+                                            <p>95957549</p>
                                         </td>
                                         <td>
-                                            <p>#64843 </p>
+                                            <p>Pakistan</p>
                                         </td>
                                         <td>
-                                            <div class="flex">
-                                                <div class="image">
-                                                    <img src="images/team-10.jpeg">
-                                                </div>
-                                                <div class="cntnt">
-                                                    <p>Arsalan Tahir</p>
-                                                    <p>Ab12@gmail.com</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p>343458533</p>
-                                        </td>
-                                        <td>
-                                            <p>$721</p>
-                                        </td>
-                                        <td>
-                                            <p>July 6 , 2022</p>
-                                        </td>
-                                        <td>
-                                            <p>
-                                                <a href="" class="status">Pending</a>
-                                            </p>
+                                            <p> Sargodha </p>
                                         </td>
                                         <td>
                                             <div class="btn-group">

@@ -11,6 +11,7 @@ html {
 :root {
   --chevron: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="300px" height="300px" fill="%23080a0f" viewBox="-155 247 300 300" style="enable-background:new -155 247 300 300;"><polygon points="78.6356201,306.8178101 -5.0166931,390.4367371 -88.6356277,306.8178101 -137, 355.1821899 -5.0166931,487.1821899 127,355.1821899 "/></svg>');
   --tick: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="300px" height="300px" fill="%23fff" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve"><polygon points="115.7434006,270.8831787 0,173.503006 21.3676376,148.106369 111.6297684,224.0477905 274.5331421,29.1168175 300,50.3998222"/></svg>');
+  --greentick: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0088"%3e%3cpath fill="%2304B440" d="M2.36.73.64.53c-0.4-1.04.46-1.41.1-0.8l1.11.43.4-3.8c.6-0.631.6-0.271.2.7l-44.6c-0.43.5-.8.4-1.1.1z"/%3e%3c/svg%3e');
 }
 
 /* ========= colors ============ */
@@ -2535,10 +2536,6 @@ th {
   color: #f55151;
 }
 
-table tbody tr td {
-  color: #556777bf;
-}
-
 /* =========== form_fields ============== */
 
 .form_fields .col {
@@ -2610,8 +2607,8 @@ form .txtGrp .input::file-selector-button {
   padding: 8px 16px;
   margin: -8px -16px;
   margin-inline-end: 16px;
-  color: #959db2;
-  background-color: #ebf3f5;
+  color: #3a3f4f;
+  background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2725,27 +2722,81 @@ form .txtGrp-Grp .input-group {
   display: flex;
   align-items: center;
   padding: 8px 16px;
-  font-size: 0.875rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #959db2;
+  color: #3a3f4f;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
-  border: 1px solid #ebf3f5;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
   border-radius: 7px;
+  height: 34px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .grp-select {
   margin-left: calc(1px * -1);
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
   position: relative;
   flex: 1 1 auto;
-  width: 1%;
+  width: 1% !important;
   min-width: 0;
 }
-/* ============ */
+
+.grp-select-btn {
+  margin-left: calc(1px * -1);
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  position: relative;
+  flex: 1 1 auto;
+  width: 1% !important;
+  min-width: 0;
+  border-right: unset !important;
+}
+
+.txtGrp-Grp button {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  height: 34px;
+}
+
+form .txtGrp .is-valid {
+  border-color: #04b440;
+  padding-right: calc(1.5em + 16px);
+  background-image: url("../images/tick.svg");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 4px) center;
+  background-size: calc(0.75em + 8px) calc(0.75em + 8px);
+}
+
+form .txtGrp .valid-feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #04b440;
+}
+
+form .txtGrp .is-invalid {
+  border-color: #f55151;
+  padding-right: calc(1.5em + 16px);
+  background-image: url("../images/alert.svg");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 4px) center;
+  background-size: calc(0.75em + 8px) calc(0.75em + 8px);
+}
+
+form .txtGrp .invalid-feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #f55151;
+}
+
+/* datatables */
 
 .dashTable table .image {
   width: 42px;
@@ -2821,9 +2872,14 @@ table.dataTable.display tbody tr.even > .sorting_1 {
   padding: 4px 12px !important;
 }
 
+.dataTables_paginate span {
+  display: flex !important;
+  gap: 8px !important;
+}
+
 div.dataTables_wrapper div.dataTables_paginate {
   display: flex !important;
-  gap: 10px !important;
+  gap: 8px !important;
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
@@ -3092,10 +3148,9 @@ abbr[title] {
   color: #2c5eeb;
 }
 
-.info > .infoTip {
+/* .info > .infoTip {
   position: absolute;
   z-index: 10;
-  /* color: #333; */
   color: #222222;
   width: 160px;
   top: 22px;
@@ -3114,9 +3169,9 @@ abbr[title] {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
+} */
 
-.info {
+/* .info {
   position: absolute;
   background: #e0ecec;
   color: #8a9097;
@@ -3124,9 +3179,9 @@ abbr[title] {
   padding: 10px 12px;
   top: 0px;
   right: -28px;
-}
+} */
 
-.info > .infoTip:before {
+/* .info > .infoTip:before {
   position: absolute;
   content: "";
   left: 120px;
@@ -3138,9 +3193,9 @@ abbr[title] {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-}
+} */
 
-.info:hover .infoTip {
+/* .info:hover .infoTip {
   visibility: visible;
   opacity: 1;
   -webkit-transition: all 0.5s ease;
@@ -3160,7 +3215,7 @@ abbr[title] {
   display: block;
   padding-left: 0.3px;
   cursor: pointer;
-}
+} */
 
 .width-less {
   width: 96%;
@@ -3405,4 +3460,23 @@ main .ck.ck-editor {
 
 .table-bordered {
   font-size: 16px;
+}
+
+div.dataTables_wrapper {
+  font-family: "Inter Regular" !important;
+}
+
+table.dataTable thead > tr > th.sorting {
+  font-family: "Inter SemiBold" !important;
+  color: #3a3f4f !important;
+}
+
+table.dataTable.display tbody tr:hover {
+  background-color: unset !important;
+}
+
+.paginate_button.current,
+.paginate_button:hover {
+  color: #009efb !important;
+  border: 1px solid #009efb !important;
 }

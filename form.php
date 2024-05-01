@@ -797,7 +797,7 @@
                                             </div>
                                         </div>
                                         <form>
-                                            <div class="txtGrp-Grp">
+                                            <div class="txtGrp-Grp txtGrp">
                                                 <label class="input-group" for="Select01">Options</label>
                                                 <select class="input grp-select" id="Select01">
                                                     <option selected="">Choose...</option>
@@ -813,7 +813,7 @@
                                     <div class="card">
                                         <div class="inner">
                                             <div class="text">
-                                                <h5>Multiple Select
+                                                <h5>Select With Buttons
                                                 </h5>
                                                 <p>Usage <code> multiple </code></p>
                                             </div>
@@ -824,15 +824,63 @@
                                             </div>
                                         </div>
                                         <form>
-                                            <div class="txtGrp">
-                                                <label for="">Select Multiple Numbers</label>
-                                                <select multiple="" class="input">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
+                                            <div class="txtGrp-Grp txtGrp">
+                                                <select class="input grp-select-btn" id="Select01">
+                                                    <option selected="">Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
                                                 </select>
+                                                <button class="webBtn mdBtn">Button</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mini-headings">
+                                <h4>Input With Validaton</h4>
+                            </div>
+                            <div class="flex two">
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="inner">
+                                            <div class="text">
+                                                <h5>Input With Success</h5>
+                                                <p>Usage <code> is-valid </code></p>
+                                            </div>
+                                            <div class="text">
+                                                <div class="code">
+                                                    <i class="fa-light fa-code"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form>
+                                            <div class="txtGrp">
+                                                <input type="text́" class="input is-valid">
+                                                <div class="valid-feedback">Success! You've done it.</div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="inner">
+                                            <div class="text">
+                                                <h5>Input With Danger</h5>
+                                                <p>Usage <code> is-invalid </code></p>
+                                            </div>
+                                            <div class="text">
+                                                <div class="code">
+                                                    <i class="fa-light fa-code"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form>
+                                            <div class="txtGrp">
+                                                <input type="text́" class="input is-invalid">
+                                                <div class="invalid-feedback">
+                                                    Sorry, that username's taken. Try another?
+                                                </div>
                                             </div>
                                         </form>
                                     </div>

@@ -22,7 +22,7 @@
                     <span class="hide-menu">Forms</span></a>
                 <ul class="sub-menu">
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="form.php" class="sidebar-link">
                             <span class="hide-menu">Form Inputs</span></a>
                     </li>
                     <li class="sidebar-item">
@@ -67,7 +67,7 @@
                     <span class="hide-menu">Contact Tables</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="contact-list.php" class="sidebar-link">
                     <i class="fa-light fa-table-list"></i>
                     <span class="hide-menu">Contact List</span></a>
             </li>
