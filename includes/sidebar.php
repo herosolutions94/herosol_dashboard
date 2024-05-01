@@ -47,9 +47,9 @@
                 </ul>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="message.php" class="sidebar-link">
                     <i class="fa-light fa-message-lines"></i>
-                    <span class="hide-menu">Chat</span></a>
+                    <span class="hide-menu">Messages</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="#" class="sidebar-link">
@@ -83,9 +83,9 @@
             </li>
             <li class="small_head">Pages</li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="blog.php" class="sidebar-link">
                     <i class="fa-light fa-circle-dollar"></i>
-                    <span class="hide-menu">Pricing</span></a>
+                    <span class="hide-menu">Blog</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="#" class="sidebar-link">

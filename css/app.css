@@ -1,0 +1,63 @@
+.card {
+  margin-bottom: 30px;
+  border: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+  box-shadow: 0 0 20px rgba(8, 21, 66, 0.05);
+}
+.card .card-header {
+  background-color: #fff;
+  padding: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ecf3fa;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+}
+.card .card-body {
+  padding: 0px;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.card .card-header h5 {
+  font-size: 20px;
+}
+.dashTable .list-group {
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+.dashTable .list-group-item h5 {
+  margin-bottom: 0;
+}
+.dashTable .list-group-item {
+  padding: 15px;
+}
+.dashTable .details-group strong {
+  color: #000;
+  min-width: 158px;
+}
+.dashTable .details-group p {
+  display: flex;
+  justify-content: flex-start;
+}
+.dashTable .image-blog {
+  width: 55px;
+  height: 55px;
+  margin: auto 0;
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 20%) 0 5px 10px 0;
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+.dashTable .image-blog img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

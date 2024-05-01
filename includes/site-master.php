@@ -49,7 +49,7 @@
 <!-- Media-Query Css -->
 
 <link type="text/css" rel="stylesheet" href="css/responsive.css?v=2">
-
+<link type="text/css" rel="stylesheet" href="css/app.css">
 
 <!-- Favicon -->
 
