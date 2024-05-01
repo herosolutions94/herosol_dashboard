@@ -106,7 +106,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -156,7 +156,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -206,7 +206,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -256,7 +256,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -306,7 +306,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -356,7 +356,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -406,7 +406,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -456,7 +456,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -506,7 +506,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -556,7 +556,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>
@@ -606,7 +606,7 @@
                                                 </button>
                                                 <ul class="dropdown-menu dropdown-primary" role="menu">
                                                     <li>
-                                                        <a href="">
+                                                        <a href="order-detail.php">
                                                             <i class="fa fa-building" aria-hidden="true"></i>Detail </a>
                                                     </li>
                                                     <li>

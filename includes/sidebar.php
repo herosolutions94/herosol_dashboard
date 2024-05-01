@@ -62,9 +62,9 @@
                     <span class="hide-menu">Notes</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
-                    <i class="fa-light fa-table"></i>
-                    <span class="hide-menu">Contact Tables</span></a>
+                <a href="order.php" class="sidebar-link">
+                    <i class="fa-light fa-cart-shopping"></i>
+                    <span class="hide-menu">Orders</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="contact-list.php" class="sidebar-link">
@@ -72,14 +72,14 @@
                     <span class="hide-menu">Contact List</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="invoice.php" class="sidebar-link">
                     <i class="fa-light fa-file-invoice"></i>
                     <span class="hide-menu">Invoice</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="user.php" class="sidebar-link">
                     <i class="fa-light fa-square-user"></i>
-                    <span class="hide-menu">User Profile</span></a>
+                    <span class="hide-menu">User</span></a>
             </li>
             <li class="small_head">Pages</li>
             <li class="sidebar-item">

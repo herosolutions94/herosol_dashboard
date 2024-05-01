@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Contact List - Hero Solutions</title>
+    <title>User - Hero Solutions</title>
     <?php require_once('includes/site-master.php'); ?>
 </head>
 
@@ -19,10 +19,10 @@
                     <div class="contain-fluid">
                         <div class="heading">
                             <div class="text">
-                                <h3>Contact</h3>
+                                <h3>User</h3>
                                 <ul>
                                     <li><a href="">Home</a> </li>
-                                    <li class="active"><a href="">Contact</a></li>
+                                    <li class="active"><a href="">User</a></li>
                                 </ul>
                             </div>
                             <div class="text text2">
@@ -40,22 +40,25 @@
                             <table class="dataTable display" id="basic-1">
                                 <thead>
                                     <tr class="table-scnd-row">
-                                        <th width="10%">
+                                        <th width="7%">
                                             <p>#</p>
                                         </th>
-                                        <th width="15%">
+                                        <th width="12%">
+                                            <p>Customer ID </p>
+                                        </th>
+                                        <th width="19%">
                                             <p>Name </p>
                                         </th>
-                                        <th width="20%">
+                                        <th width="15%">
                                             <p>Email</p>
                                         </th>
-                                        <th width="15%">
+                                        <th width="14%">
                                             <p>Phone No</p>
                                         </th>
-                                        <th width="15%">
+                                        <th width="14%">
                                             <p>Country</p>
                                         </th>
-                                        <th width="15%">
+                                        <th width="12%">
                                             <p>City</p>
                                         </th>
                                         <th width="10%">
@@ -69,8 +72,13 @@
                                             <p>1</p>
                                         </td>
                                         <td>
+                                            <p>#75859 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-1.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Abeera Asjid</p>
                                                 </div>
@@ -113,8 +121,13 @@
                                             <p>2</p>
                                         </td>
                                         <td>
+                                            <p>#13456 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-2.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Subhan Azam</p>
                                                 </div>
@@ -156,10 +169,14 @@
                                         <td>
                                             <p>3</p>
                                         </td>
-
+                                        <td>
+                                            <p>#09876 </p>
+                                        </td>
                                         <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-3.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Ayat Sajid</p>
                                                 </div>
@@ -201,10 +218,14 @@
                                         <td>
                                             <p>4</p>
                                         </td>
-
+                                        <td>
+                                            <p>#65738 </p>
+                                        </td>
                                         <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-4.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Ahmed Ali</p>
                                                 </div>
@@ -246,10 +267,14 @@
                                         <td>
                                             <p>5</p>
                                         </td>
-
+                                        <td>
+                                            <p>#38965 </p>
+                                        </td>
                                         <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-5.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Zubia Ahmed</p>
                                                 </div>
@@ -291,10 +316,14 @@
                                         <td>
                                             <p>6</p>
                                         </td>
-
+                                        <td>
+                                            <p>#23449 </p>
+                                        </td>
                                         <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-6.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Abdullah Tahir</p>
                                                 </div>
@@ -337,8 +366,13 @@
                                             <p>7</p>
                                         </td>
                                         <td>
+                                            <p>#89765 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-7.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>ALi Tahir</p>
                                                 </div>
@@ -381,8 +415,13 @@
                                             <p>8</p>
                                         </td>
                                         <td>
+                                            <p>#54895 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-8.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Anaya Shah</p>
                                                 </div>
@@ -425,8 +464,13 @@
                                             <p>9</p>
                                         </td>
                                         <td>
+                                            <p>#75859 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-9.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Abdullah Tahir</p>
                                                 </div>
@@ -469,8 +513,13 @@
                                             <p>10</p>
                                         </td>
                                         <td>
+                                            <p>#75859 </p>
+                                        </td>
+                                        <td>
                                             <div class="flex">
-
+                                                <div class="image">
+                                                    <img src="images/team-10.jpeg">
+                                                </div>
                                                 <div class="custm-cntnt">
                                                     <p>Abdullah Tahir</p>
                                                 </div>
