@@ -19,7 +19,7 @@
                     <div class="contain-fluid">
                         <div class="heading">
                             <div class="text">
-                                <h3>Dashboard</h3>
+                                <h3>Order Detail</h3>
                                 <ul>
                                     <li><a href="">Home</a> </li>
                                     <li class="active"><a href=""> Order detail</a></li>
