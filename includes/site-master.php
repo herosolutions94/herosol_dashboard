@@ -39,6 +39,10 @@
 
 <link type="text/css" rel="stylesheet" href="css/commonCss.css">
 
+<link type="text/css" rel="stylesheet" href="css/modal.css">
+
+<link type="text/css" rel="stylesheet" href="css/calendar.css">
+
 <!-- Main Css -->
 
 <link type="text/css" rel="stylesheet" href="css/main.css?v=1">
