@@ -32,7 +32,8 @@
                             </div>
                             <div class="text text2">
 
-                                <button class="webBtn mdBtn greenBtn"><i class="fa-light fa-plus"></i>Add New</button>
+                                <a href="new_blog.php" class="webBtn mdBtn greenBtn"><i class="fa-light fa-plus"></i>Add
+                                    New</a>
                             </div>
                         </div>
                         <div class="dashTable">

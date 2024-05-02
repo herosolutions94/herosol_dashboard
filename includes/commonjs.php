@@ -7,4 +7,8 @@
 <script type="text/javascript" src="js/dashboard2.js"></script>
 <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="js/datatable.custom.js"></script>
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="js/ckeditor/adapters/jquery.js"></script>
+<script type="text/javascript" src="js/ckeditor/styles.js"></script>
+<script type="text/javascript" src="js/ckeditor/ckeditor.custom.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
