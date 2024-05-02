@@ -2978,7 +2978,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 abbr[title] {
   border-bottom: none;
 }
-
+/*new file*/
 .site-page .form-horizontal .control-label .required {
   color: #44a5ff;
   font-size: 14px;
