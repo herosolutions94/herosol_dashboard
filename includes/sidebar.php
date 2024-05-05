@@ -93,9 +93,9 @@
                     <span class="hide-menu">FAQ</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="setting.php" class="sidebar-link">
                     <i class="fa-light fa-circle-user"></i>
-                    <span class="hide-menu">Account Settings</span></a>
+                    <span class="hide-menu">Site Settings</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="#" class="sidebar-link">
