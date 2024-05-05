@@ -57,9 +57,9 @@
                     <span class="hide-menu">Email</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="analytics.php" class="sidebar-link">
                     <i class="fa-sharp fa-light fa-swatchbook"></i>
-                    <span class="hide-menu">Notes</span></a>
+                    <span class="hide-menu">Analytics</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="order.php" class="sidebar-link">
