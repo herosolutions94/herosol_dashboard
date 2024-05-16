@@ -306,3 +306,65 @@
 .strip_it form select.input {
   background-position: right 48px center;
 }
+/* ====== */
+button.Bt-btn {
+  border-radius: 3px;
+  padding: 5px 11px;
+  color: #fff;
+  font-size: 15px;
+  height: 32px;
+  width: 124px;
+  background: #2c5cea !important;
+}
+.Bt-btn i {
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 0 !important;
+}
+.dashTable .preview {
+  padding-top: 0;
+}
+.cke_chrome {
+  border-bottom: 1px solid #eee !important;
+  border-top: none;
+}
+.dashTable .forth_icon {
+  width: 17%;
+}
+.card video {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.dashTable .popup_vid {
+  width: 28%;
+}
+.dashTable .table-primary {
+  background: #f1f4f8;
+  color: #000;
+  border-color: #bacbe6;
+}
+.dashTable tr th a.addNewRowTbl,
+.table .delNewRowTbl {
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: #009efb;
+}
+.dashTable tr th a.addNewRowTbl.badge-primary {
+  padding: 2px;
+  width: 28px;
+  height: 28px;
+}

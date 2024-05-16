@@ -88,9 +88,9 @@
                     <span class="hide-menu">Blog</span></a>
             </li>
             <li class="sidebar-item">
-                <a href="#" class="sidebar-link">
+                <a href="testimonial.php" class="sidebar-link">
                     <i class="fa-light fa-circle-question"></i>
-                    <span class="hide-menu">FAQ</span></a>
+                    <span class="hide-menu">Testimonials</span></a>
             </li>
             <li class="sidebar-item">
                 <a href="setting.php" class="sidebar-link">

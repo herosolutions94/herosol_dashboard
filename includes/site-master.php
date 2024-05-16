@@ -43,6 +43,8 @@
 
 <link type="text/css" rel="stylesheet" href="css/calendar.css">
 
+<link type="text/css" rel="stylesheet" href="css/rateyo.css">
+
 <!-- Main Css -->
 
 <link type="text/css" rel="stylesheet" href="css/main.css?v=1">

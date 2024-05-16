@@ -32,3 +32,17 @@ $(document).ready(function () {
     $(this).parents("form").find(".uploadFile").trigger("click");
   });
 });
+
+// rateyo
+
+$(function () {
+  $(".rateYo").rateYo({
+    rating: 4.0,
+    fullStar: true,
+    readOnly: true,
+    normalFill: "#ddd",
+    ratedFill: "#ffc000",
+    starWidth: "14px",
+    spacing: "2px",
+  });
+});

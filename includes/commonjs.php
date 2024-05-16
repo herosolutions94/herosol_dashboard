@@ -16,4 +16,5 @@
 </script>
 <script type="text/javascript" src="js/calendar-init.js"></script>
 <script type="text/javascript" src="js/index.global.min.js"></script>
+<script type="text/javascript" src="js/jquery.rateyo.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
